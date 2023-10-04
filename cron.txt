@@ -1,0 +1,2 @@
+30 18 * * 5 /var/spool/cron/tabs/home/backup_script.sh
+0 8 * * * /usr/sbin/logwatch --output mail --mailto kartamishev.ms@54.roslesinforg.ru --detail high
